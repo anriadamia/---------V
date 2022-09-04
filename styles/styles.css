@@ -96,6 +96,9 @@ main{
     padding-left:108px;
     padding-bottom:100px;
 }
+.goon::after{
+    content:"?";
+}
 article{
     float: left;
     margin-right:80px;
