@@ -96,6 +96,9 @@ main{
     padding-left:108px;
     padding-bottom:100px;
 }
+.goon{
+    margin-top:10px;
+}
 .goon::after{
     content:"?";
 }
