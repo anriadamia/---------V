@@ -35,9 +35,8 @@ header h1 a{
 
 header ul li{
     float: left;
-    margin-right:20px;
     font-size: 18px;
-    margin-top: 26px 
+    margin:26px 20px 0px 0px;
     
 }
 header li a{
@@ -72,14 +71,19 @@ header li a:hover::before{
     height:50%;
    
 }
-
+.social .facebook a, .social .instagram a{
+    display:block;
+    width:50px;
+    height:50px;
+}
 .facebook{
     background-image:url(../img/fb\ 1.png);
     background-size: 100%;
     background-repeat:no-repeat;
 }
  .facebook:hover{
-   background-image:url(../img/facebook.png)
+   background-image:url(../img/facebook.png);
+   cursor: pointer;
 }
 .instagram{
     background-image:url(../img/instagram\ 1.png);
@@ -88,13 +92,13 @@ header li a:hover::before{
 }
 .instagram:hover{
     background-image:url(../img/instagram.png);
+    cursor: pointer;
     
 }
 
 main{
-    padding-top: 50px;
-    padding-left:108px;
-    padding-bottom:100px;
+   
+    padding:50px 0px 100px 108px;
 }
 .goon{
     margin-top:10px;
@@ -104,9 +108,7 @@ main{
 }
 article{
     float: left;
-    margin-right:80px;
-    margin-bottom: 22px;
-    margin-bottom: 100px;
+   margin:0px 80px 22px 0px;
 }
 section:hover{
     box-shadow: 0 0 20px #595555;
@@ -143,6 +145,7 @@ background-position-y:58px
 }
 .guli:hover{
     background-image:url(../img/like\ 2.png);
+    cursor:pointer;
 }
 section h3 {
     margin-top: 144px;
@@ -154,7 +157,7 @@ section p{
 
 
 
-footer .dasasruli{
+footer{
     clear:both;
     width: 100%;
     height: 354px;
